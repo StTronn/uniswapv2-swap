@@ -893,9 +893,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nomicfoundation/hardhat-verify@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "@nomicfoundation/hardhat-verify@npm:1.0.3"
+"@nomicfoundation/hardhat-verify@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@nomicfoundation/hardhat-verify@npm:1.1.0"
   dependencies:
     "@ethersproject/abi": ^5.1.2
     "@ethersproject/address": ^5.0.2
@@ -908,7 +908,7 @@ __metadata:
     undici: ^5.14.0
   peerDependencies:
     hardhat: ^2.0.4
-  checksum: 3fce85dcde3da4e8e7afa4bab6f4fe250cfc456ff7a254447b9fc07082f0169da13a6e8e2db3a72c9326ee0c147e9f13db49fb25c5f31e29300e94bad2eef780
+  checksum: 9bfe2991d111f8bb1771c8c0f518ccc22f34eeda2ab8d82afadedc19c8079c8029a01d2ca77a7eb167f54bf33489cdfc199f61e3666880a037b74622d6b5f942
   languageName: node
   linkType: hard
 
@@ -1553,7 +1553,7 @@ __metadata:
     "@nomicfoundation/hardhat-ethers": ^3.0.3
     "@nomicfoundation/hardhat-network-helpers": ^1.0.6
     "@nomicfoundation/hardhat-toolbox": ^3.0.0
-    "@nomicfoundation/hardhat-verify": ^1.0.3
+    "@nomicfoundation/hardhat-verify": ^1.1.0
     "@openzeppelin/contracts": ^4.9.2
     "@typechain/ethers-v6": ^0.4.0
     "@typechain/hardhat": ^8.0.0
