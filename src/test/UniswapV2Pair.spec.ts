@@ -15,7 +15,7 @@ describe("UniswapV2Pair", () => {
   async function fixture() {
     const [pairFactory, erc20Factory] = await Promise.all([
       ethers.getContractFactory("UniswapV2Pair"),
-      ethers.getContractFactory("ERC20"),
+      ethers.getContractFactory("contracts/test/ERC20.sol:ERC20"),
     ]);
     const [wallet, other] = await ethers.getSigners();
 

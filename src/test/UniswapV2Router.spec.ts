@@ -13,7 +13,7 @@ import { UniswapV2Pair } from "../../typechain-types";
 describe("UniswapV2Router", () => {
   async function v2Fixture() {
     const [wallet] = await ethers.getSigners();
-    const token = await ethers.getContractFactory("ERC20");
+    const token = await ethers.getContractFactory("contracts/test/ERC20.sol:ERC20");
 
     // deploy tokens
     const tokenA = await token.deploy(expandTo18Decimals(10000));
@@ -22,7 +22,7 @@ describe("UniswapV2Router", () => {
     const weth = await ethers.getContractFactory("WETH9");
     const WETH = await weth.deploy();
 
-    const erc20 = await ethers.getContractFactory("ERC20");
+    const erc20 = await ethers.getContractFactory("contracts/test/ERC20.sol:ERC20");
     const WETHPartner = await erc20.deploy(expandTo18Decimals(10000));
 
     // deploy V2

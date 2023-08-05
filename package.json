@@ -67,5 +67,8 @@
   "packageManager": "yarn@3.6.1",
   "prettier": {
     "trailingComma": "all"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.2"
   }
 }
